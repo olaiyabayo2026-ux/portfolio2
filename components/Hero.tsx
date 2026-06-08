@@ -92,7 +92,7 @@ export default function Hero() {
                 Get in Touch
               </a>
               <a
-                href="/portfolio/cv-olaiya-adebayo.pdf"
+                href="/adebayo-olaiya-portfolio2/cv-olaiya-adebayo.pdf"
                 download="Olaiya-Adebayo-CV.pdf"
                 className="px-8 py-3 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105 border text-center flex items-center justify-center gap-2"
                 style={{ borderColor: "rgba(99,102,241,0.5)", color: "var(--accent-2)" }}
