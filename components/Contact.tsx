@@ -84,7 +84,7 @@ export default function Contact() {
               Send Me a Message
             </a>
             <a
-              href="/adebayo-olaiya-portfolio2/cv-olaiya-adebayo.pdf"
+              href="/portfolio2/cv-olaiya-adebayo.pdf"
               download="Olaiya-Adebayo-CV.pdf"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105 border"
               style={{ borderColor: "rgba(99,102,241,0.5)", color: "var(--accent-2)" }}
