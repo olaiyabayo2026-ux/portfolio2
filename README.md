@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+
+bash
+Then paste this prompt to Claude Code:
+Add these changes to the project and push to https://github.com/olaiyabayo2026-ux/portfolio2.git:
+
+1. In app/layout.tsx, add these OpenGraph metadata fields to the existing metadata export:
+   - openGraph with title, description, url, siteName, images (using /profile.jpg), locale en_GB, type profile
+   - twitter card with summary_large_image
+   - Add JSON-LD structured data script tag for Person schema with name Olaiya Adebayo, jobTitle AI-Enabled Project Manager, url https://portfolio-ten-navy-32.vercel.app, sameAs LinkedIn
+
+2. Add a LinkedIn badge component to the hero section just below the CTA buttons
+
+3. Add a LinkedIn SVG icon to the navbar
+
+4. Upgrade the contact section LinkedIn entry from plain text to a styled button with LinkedIn blue icon
+
+Then git add, commit with message "feat: add LinkedIn integration, OpenGraph tags and structured data", and push to origin main.
 ## Getting Started
 
 First, run the development server:
