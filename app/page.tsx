@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Hero /><a 
-  href="https://github.com/olaiyabayo2026-ux/portfolio2/blob/main/cv-olaiya-adebayo.pdff"
+  href="https://raw.githubusercontent.com/olaiyabayo2026-ux/portfolio2/main/cv-olaiya-adebayo.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
