@@ -17,7 +17,7 @@ export default function About() {
             projects across West Africa and beyond.
           </p>
           <p className="leading-relaxed mb-4 opacity-70">
-            I have completed a 10-module Claude AI Bootcamp and several Codecademy professional
+            I have completed a 9-module Claude AI Bootcamp and several Codecademy professional
             certifications in 2026, covering prompt engineering, generative AI workflows, intelligent
             automation, agentic systems, AI for product managers and data science with AI. I now combine deep
             project management expertise with emerging AI capabilities to design smarter workflows,
@@ -60,7 +60,7 @@ export default function About() {
               items: [
                 "PMP® — Project Management Professional (PMI)",
                 "MNSE — Member, Nigerian Society of Engineers",
-                "Claude AI Bootcamp — 10 modules (Prompt Engineering, Agentic Workflows, MCP, Claude Code)",
+                "AI Bootcamp (2026) — 9 modules: Claude AI, Prompt Engineering, MCP, Agentic Workflows, Claude Code",
                 "Codecademy Professional Certifications (2026): AI for Product Managers · Data Science with AI · Beyond Vibe Coding · Build an AI Voice Agent · AI at Work",              ],
             },
             {

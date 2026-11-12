@@ -1,6 +1,6 @@
 const jobs = [
   {
-    title: "Senior Project Manager",
+    title: "Senior Project Coordinator / AI Workflow Lead",
     company: "Oduak Projects Limited, Nigeria",
     period: "2016 – Present",
     type: "Telecom & IT Infrastructure",
