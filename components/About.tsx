@@ -17,8 +17,9 @@ export default function About() {
             projects across West Africa and beyond.
           </p>
           <p className="leading-relaxed mb-4 opacity-70">
-            Recently I completed an intensive AI Bootcamp covering Claude AI, prompt engineering,
-            generative AI workflows, intelligent automation, and agentic systems. I now combine deep
+            I have completed a 10-module Claude AI Bootcamp and several Codecademy professional
+            certifications in 2026, covering prompt engineering, generative AI workflows, intelligent
+            automation, agentic systems, AI for product managers and data science with AI. I now combine deep
             project management expertise with emerging AI capabilities to design smarter workflows,
             accelerate delivery, and embed AI solutions into enterprise operations.
           </p>
@@ -59,13 +60,13 @@ export default function About() {
               items: [
                 "PMP® — Project Management Professional (PMI)",
                 "MNSE — Member, Nigerian Society of Engineers",
-                "AI Bootcamp — Claude AI, Prompt Engineering & Agentic Workflows (2025)",
-              ],
+                "Claude AI Bootcamp — 10 modules (Prompt Engineering, Agentic Workflows, MCP, Claude Code)",
+                "Codecademy Professional Certifications (2026): AI for Product Managers · Data Science with AI · Beyond Vibe Coding · Build an AI Voice Agent · AI at Work",              ],
             },
             {
               icon: "🌐",
               title: "Languages",
-              items: ["English — Native / Full Professional", "Portuguese — Intermediate (A2–B1)", "Yoruba — Native"],
+              items: ["English — Native / Full Professional", "Portuguese — A2 (certified, continuing to study)", "Yoruba — Native"],
             },
           ].map((card) => (
             <div key={card.title} className="card p-5">

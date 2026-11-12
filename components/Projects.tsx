@@ -6,6 +6,30 @@ const projects = [
     icon: "✈️",
   },
   {
+    title: "FlightDesk Nigeria — Corporate Travel Intelligence Dashboard",
+    desc: "A corporate travel intelligence dashboard for the Nigerian market. Defined the requirements, used AI to gather and structure the data, and delivered a live interactive tool.",
+    tags: ["Claude AI", "Data Viz", "Requirements", "Business Intelligence"],
+    icon: "📈",
+  },
+  {
+    title: "Pizza-Ordering AI Agent",
+    desc: "Built a customer-facing conversational AI agent that takes food orders, covering conversation design and testing how the agent handles unexpected customer requests.",
+    tags: ["AI Agent", "Conversation Design", "Customer Experience", "Testing"],
+    icon: "🍕",
+  },
+  {
+    title: "Nigeria Daily News Plugin",
+    desc: "Created a Claude plugin that fetches the day's breaking news from Nigeria and presents it as a clickable news feed — a packaged, reusable AI workflow.",
+    tags: ["Claude Plugin", "Agentic Workflow", "Automation"],
+    icon: "📰",
+  },
+  {
+    title: "Job Application Command Centre",
+    desc: "AI-powered tracker that manages target companies, tailored cover letters, contact strategies and application status in one place.",
+    tags: ["Claude AI", "MCP", "Workflow Automation"],
+    icon: "🗂️",
+  },
+  {
     title: "AI-Powered Browser Games & Dashboards",
     desc: "Developed interactive browser games (Dino Runner, Oware/Mancala) and a global inflation tracker dashboard using HTML/CSS/JS via Claude Code — zero prior frontend experience.",
     tags: ["Claude Code", "HTML/CSS/JS", "Vibe Coding", "Data Viz"],
@@ -13,8 +37,8 @@ const projects = [
   },
   {
     title: "AI-Enhanced Portfolio Website",
-    desc: "Designed and deployed a dark-tech aesthetic personal portfolio on GitHub Pages to support AI job search positioning, built entirely through AI-assisted development.",
-    tags: ["Next.js", "Tailwind CSS", "Claude AI", "GitHub Pages"],
+    desc: "Designed and deployed this dark-tech personal portfolio on Vercel, built entirely through AI-assisted development and updated as new projects ship.",
+    tags: ["Next.js", "Tailwind CSS", "Claude Code", "Vercel"],
     icon: "🌐",
   },
   {
@@ -22,18 +46,6 @@ const projects = [
     desc: "Designed a structured AI presentation for business stakeholders showcasing prompt engineering and generative AI for productivity across enterprise workflows.",
     tags: ["Prompt Engineering", "Generative AI", "Stakeholder Comms"],
     icon: "📊",
-  },
-  {
-    title: "AI Document Workflow Automation",
-    desc: "Built AI-assisted document workflows for formal legal/immigration correspondence, applying structured prompt chains to complex multi-step real-world tasks.",
-    tags: ["Prompt Chains", "Claude AI", "Document Automation"],
-    icon: "📄",
-  },
-  {
-    title: "Cross-Domain AI Content Generation",
-    desc: "Developed an AI sermon script for a diaspora congregation incorporating Nigerian cultural frameworks — demonstrating advanced cross-domain AI content generation capabilities.",
-    tags: ["Generative AI", "Cultural Context", "Content Strategy"],
-    icon: "✍️",
   },
 ];
 
@@ -57,7 +69,7 @@ export default function Projects() {
             Portfolio
           </p>
           <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "var(--foreground)" }}>
-            AI Projects &amp; <span className="gradient-text">Bootcamp Work</span>
+            AI Projects &amp; <span className="gradient-text">Builds</span>
           </h2>
         </div>
 

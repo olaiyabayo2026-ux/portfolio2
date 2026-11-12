@@ -37,6 +37,7 @@ const bootcampModules = [
   "Automation & Advanced AI Workflows",
   "Claude Code (Vibe Coding)",
   "Claude Cowork & Advanced Integrations",
+  "Agentic AI Applications",
 ];
 
 export default function Skills() {

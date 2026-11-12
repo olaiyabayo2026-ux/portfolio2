@@ -1,7 +1,7 @@
 const jobs = [
   {
-    title: "Senior Project Coordinator / AI Workflow Lead",
-    company: "Oduak Projects Limited",
+    title: "Senior Project Manager",
+    company: "Oduak Projects Limited, Nigeria",
     period: "2016 – Present",
     type: "Telecom & IT Infrastructure",
     highlights: [
@@ -16,7 +16,7 @@ const jobs = [
   },
   {
     title: "Programme Manager",
-    company: "Adimae Glory Global Services Ltd",
+    company: "Adimae Glory Global Services Ltd, Nigeria",
     period: "2013 – 2016",
     type: "Telecom Infrastructure Rollout",
     highlights: [
@@ -26,6 +26,18 @@ const jobs = [
       "Mentored and supervised a team of 12 project coordinators, embedding best-practice project delivery methodology.",
     ],
     metrics: ["95% On-Time Delivery", "Multi-region Portfolio", "Team of 12"],
+  },
+  {
+    title: "Project & Transmission Implementation Engineer",
+    company: "Starcoms Plc, Nigeria",
+    period: "2008 – 2013",
+    type: "Telecom Engineering",
+    highlights: [
+      "Implemented transmission network projects for a telecom operator, building the engineering foundation behind later project and programme management roles.",
+      "Provided front-line technical support to field teams and clients, troubleshooting issues and ensuring service levels were met.",
+      "Coordinated with vendors and cross-functional teams to resolve technical and logistical issues quickly.",
+    ],
+    metrics: ["Transmission Networks", "Field & Vendor Coordination"],
   },
 ];
 
