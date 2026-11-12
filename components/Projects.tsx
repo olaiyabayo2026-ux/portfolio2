@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "SeedMasters — Online Ayo/Oware Game (Live)",
+    desc: "A full digital version of the West African seed-sowing game Ayo/Oware, live at seedsmasters.com. Three modes (vs AI, vs Player, Online), real-time online play with video and voice calling, an AI opponent, and two rule sets (Captured Rule and Flow Rule). Tested with real players, including international matches.",
+    tags: ["PHP", "JavaScript", "WebRTC", "Game AI", "Live Product"],
+    icon: "🌰",
+    link: "https://seedsmasters.com",
+  },
+  {
     title: "Corporate Travel Prospecting Tool",
     desc: "Built an interactive B2B lead generation tool using Claude AI + Apollo MCP to identify and rank corporate travel prospects in Nigeria with automated outreach workflows.",
     tags: ["Claude AI", "Apollo MCP", "Lead Generation", "Automation"],
@@ -31,7 +38,7 @@ const projects = [
   },
   {
     title: "AI-Powered Browser Games & Dashboards",
-    desc: "Developed interactive browser games (Dino Runner, Oware/Mancala) and a global inflation tracker dashboard using HTML/CSS/JS via Claude Code — zero prior frontend experience.",
+    desc: "Developed interactive browser games (Dino Runner, Snake) and a global inflation tracker dashboard using HTML/CSS/JS via Claude Code — zero prior frontend experience.",
     tags: ["Claude Code", "HTML/CSS/JS", "Vibe Coding", "Data Viz"],
     icon: "🎮",
   },
@@ -82,6 +89,17 @@ export default function Projects() {
               <div className="text-3xl">{p.icon}</div>
               <h3 className="font-semibold text-sm leading-tight">{p.title}</h3>
               <p className="text-xs opacity-55 leading-relaxed flex-1">{p.desc}</p>
+              {p.link && (
+                <a
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-semibold hover:underline"
+                  style={{ color: "var(--accent)" }}
+                >
+                  Play it live →
+                </a>
+              )}
               <div className="flex flex-wrap gap-1.5 pt-1">
                 {p.tags.map((t) => (
                   <span
